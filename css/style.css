@@ -1,0 +1,97 @@
+body {
+  background: #777;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  max-width: 960px;
+  min-width: 360px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid transparent;
+  background: #fff;
+  min-height: 96vh;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  padding: 2rem 4rem;
+}
+
+.box {
+  min-height: 100px;
+  margin: 1rem auto;
+  font-size: 36px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.4);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.4);
+}
+
+.top {
+  background-color: hsla(110, 40%, 40%, 0.5);
+}
+
+.middle {
+  background-color: hsla(150, 50%, 50%, 0.5);
+}
+
+.bottom {
+  background-color: hsla(280, 40%, 40%, 0.5);
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 480px) {
+  .center {
+    display: flex;
+    justify-content: center;
+}
+button {
+    width: 33%;
+    flex-basis: 33%;
+    margin: 1rem;
+  }
+}
+
+button {
+  display: block;
+  width: 80%;
+  height: 50px;
+  margin: 1rem auto;
+  background-color: hsla(120, 40%, 60%, 1);
+  border-radius: 6px;
+  box-shadow: 2px 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+  cursor: pointer;
+  color: #eee;
+  font-size: 24px;
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.2);
+}
+button:hover {
+  color: #fff;
+  box-shadow: 0 0 1px 1px hsla(0, 0%, 0%, 0.4);
+}
+button:active {
+  color: #fff;
+  box-shadow: none;
+}
+
+.opacity {
+    opacity: 0;
+}
+
+.displayBlock {
+    display: none;
+}
+
+.activeBtn {
+    outline: 2px solid orangered;
+    offset: 2px;
+}
+
+.re {
+    display: flex;
+    justify-content: space-between;
+    color: orangered;
+    padding: 0 2rem;
+}
